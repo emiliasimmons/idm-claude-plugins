@@ -1,0 +1,136 @@
+{
+  "name": "idm-plugins",
+  "owner": { "name": "IDM" },
+  "description": "Claude Code plugins from the InstituteforDiseaseModeling and StarsimHub GitHub orgs",
+  "plugins": [
+    {
+      "name": "calib",
+      "description": "Model-based evidence to decision: calibration, VOI, and decision support for IDM",
+      "version": "0.3.1",
+      "source": {
+        "source": "github",
+        "repo": "InstituteforDiseaseModeling/calib-plugin",
+        "ref": "main",
+        "sha": "ccd05da45d998ee10e7f9ad40b8fbca24c27995a"
+      }
+    },
+    {
+      "name": "idm-ra",
+      "description": "IDM Research Assistant: AI skills for disease-modeling research scientists at IDM",
+      "version": "0.0.1",
+      "source": {
+        "source": "github",
+        "repo": "InstituteforDiseaseModeling/idm-ra",
+        "ref": "main",
+        "sha": "fb516a9091b3ff3dd5ac08b7a4e733cc93536b67"
+      }
+    },
+    {
+      "name": "data-cataloging-ai",
+      "description": "Auto-generate dataset documentation: administrative metadata, a data biography, and a variable-level data dictionary",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "InstituteforDiseaseModeling/data-cataloging-ai",
+        "ref": "main",
+        "sha": "a7b0c83a54afa89f6aaf405abb9715f20f2cd4c6"
+      }
+    },
+    {
+      "name": "idm-standards",
+      "description": "Audit and improve scientific research code and documentation against IDM engineering and documentation standards",
+      "version": "2.2_2026.07.21",
+      "source": {
+        "source": "git-subdir",
+        "url": "InstituteforDiseaseModeling/idm_standards",
+        "path": "idm_standards_plugin",
+        "ref": "main",
+        "sha": "706826136186c51f8beac9f2ceb4669f20111f53"
+      }
+    },
+    {
+      "name": "experiment-dashboard",
+      "description": "Build and deploy a self-hosted website for simulation or experiment results from idmtools, EMOD, and similar platforms",
+      "version": "1.0.0",
+      "source": {
+        "source": "git-subdir",
+        "url": "InstituteforDiseaseModeling/idm-agent-skills",
+        "path": "experiment-dashboard",
+        "ref": "main",
+        "sha": "a7752976513f7a22b71b10b7171455255150fdb5"
+      }
+    },
+    {
+      "name": "idm-pkg-install",
+      "description": "Set up a virtual environment and install IDM packages for any IDM repository",
+      "version": "1.0.0",
+      "source": {
+        "source": "git-subdir",
+        "url": "InstituteforDiseaseModeling/idm-agent-skills",
+        "path": "idm-pkg-install",
+        "ref": "main",
+        "sha": "a7752976513f7a22b71b10b7171455255150fdb5"
+      }
+    },
+    {
+      "name": "python-code-reviewer",
+      "description": "Pre-PR Python code review: grep-based pattern checks with structured REVIEW.md output",
+      "version": "1.0.0",
+      "source": {
+        "source": "git-subdir",
+        "url": "InstituteforDiseaseModeling/idm-agent-skills",
+        "path": "python-code-reviewer",
+        "ref": "main",
+        "sha": "a7752976513f7a22b71b10b7171455255150fdb5"
+      }
+    },
+    {
+      "name": "python-code-fixer",
+      "description": "Fix Python code review findings from REVIEW.md",
+      "version": "1.0.0",
+      "source": {
+        "source": "git-subdir",
+        "url": "InstituteforDiseaseModeling/idm-agent-skills",
+        "path": "python-code-fixer",
+        "ref": "main",
+        "sha": "a7752976513f7a22b71b10b7171455255150fdb5"
+      }
+    },
+    {
+      "name": "starsim-ai",
+      "description": "Starsim and Sciris MCP tools and skills for agent-based disease modeling",
+      "version": "1.5_2026.08.28",
+      "source": {
+        "source": "git-subdir",
+        "url": "StarsimHub/starsim_ai",
+        "path": "plugins/starsim",
+        "ref": "main",
+        "sha": "e687faeb6a8eef600193d8dc9435db2657ebcdf8"
+      }
+    },
+    {
+      "name": "disease-modeling",
+      "description": "General disease modeling skills and tools",
+      "version": "0.1.0",
+      "source": {
+        "source": "git-subdir",
+        "url": "StarsimHub/starsim_ai",
+        "path": "plugins/disease_modeling",
+        "ref": "main",
+        "sha": "e687faeb6a8eef600193d8dc9435db2657ebcdf8"
+      }
+    },
+    {
+      "name": "project-improver",
+      "description": "Score and improve scientific research code quality, usability, and safety against IDM engineering quality tiers",
+      "version": "1.2_2026.03.31",
+      "source": {
+        "source": "git-subdir",
+        "url": "StarsimHub/starsim_ai",
+        "path": "plugins/project-improver",
+        "ref": "main",
+        "sha": "e687faeb6a8eef600193d8dc9435db2657ebcdf8"
+      }
+    }
+  ]
+}
